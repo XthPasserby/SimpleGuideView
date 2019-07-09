@@ -6,7 +6,7 @@
 ![image](https://github.com/XthPasserby/SimpleGuideView/blob/master/screenshot.png)
 
 ### 如何使用
-直接拷贝SimpleGuideView.java到项目中在需要添加引导的布局中加入SimpleGuideView，最后在代码中添加如下代码即可：
+直接拷贝SimpleGuideView.java到项目中，在代码中按照如下代码使用即可：
 ```java
     guideView1 = new SimpleGuideView(this);
     SimpleGuideView.Target target1 = new SimpleGuideView.Target(button1,
